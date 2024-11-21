@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #A6039B, #7A4ED9, #494EA6, #223059);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    color: #fff;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button svg {
+    margin-left: 5px;
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 20px;
+}
+
+.info {
+    flex: 1;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info h2 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.charts {
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+.charts img {
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+.charts .linha{
+    display: flex;
+    justify-content: space-around;
+}
+.charts .linha img{
+    width: 49%;
+    max-width: 100%;   
+    min-width: 200px;
+    border: 2px solid #000;
+}
+.img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    padding: 20px;
+    gap: 20px;
+}
+
+.img img {
+    max-width: 325px; 
+    width: auto; 
+    height: auto; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+

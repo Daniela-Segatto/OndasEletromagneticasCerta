@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Ondas Eletromagnéticas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Cabeçalho */
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(90deg, #A6039B, #7A4ED9, #494EA6);
+            width: 100%;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            position: absolute;
+            top: 10px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-style: italic;
+            margin: 0;
+        }
+
+        /* Container principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .ondas-tipo {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 15px;
+            padding: 15px;
+            background: linear-gradient(180deg, #A6039B, #7A4ED9, #494EA6);
+        }
+
+        /* Cada item de onda */
+        .onda-item {
+            text-align: center;
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
+            width: 100px;
+            padding: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer; /* Indica que o item é clicável */
+        }
+
+        .onda-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+        }
+
+        .onda-item img {
+            width: 80%;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #A6039B, #7A4ED9, #494EA6, #223059);
+            padding: 10px;
+            border-radius: 15px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ondas Eletromagnéticas</h1>
+        </header>
+        <div class="ondas-tipo">
+            <a href="tela1.html" class="onda-item"> 
+                <img src="imagens/ondasderadio.png" alt="Rádio">
+                <p>Ondas de rádio</p>
+            </a>
+            <a href="tela2.html" class="onda-item"> 
+                <img src="imagens/microondas.png" alt="Micro-ondas">
+                <p>Micro-ondas</p>
+            </a>
+            <a href="tela3.html" class="onda-item"> 
+                <img src="imagens/infravermelho.png" alt="Infravermelho">
+                <p>Infravermelho</p>
+            </a>
+            <a href="tela4.html" class="onda-item"> 
+                <img src="imagens/luzvisivel.png" alt="Luz Visível">
+                <p>Luz Visível</p>
+            </a>
+            <a href="tela5.html" class="onda-item">
+                <img src="imagens/ultravioleta.png" alt="Ultravioleta">
+                <p>Ultravioleta</p>
+            </a>
+            <a href="tela6.html" class="onda-item">
+                <img src="imagens/ultravioleta.png" alt="">
+                <p>UVA</p>
+            </a>
+            <a href="tela7.html" class="onda-item">
+                <img src="imagens/ultravioleta.png" alt="">
+                <p>UVB</p>
+            </a>
+            <a href="tela8.html" class="onda-item">
+                <img src="imagens/ultravioleta.png" alt="">
+                <p>UVC</p>
+            </a>
+            <a href="tela9.html" class="onda-item"> 
+                <img src="imagens/raiox.png" alt="Raio X">
+                <p>Raio X</p>
+            </a>
+            <a href="tela10.html" class="onda-item"> 
+                <img src="imagens/raiogama.png" alt="Raio Gama">
+                <p>Raio Gama</p>
+            </a>
+        </div>
+        <footer>
+            Tipos de ondas eletromagnéticas
+        </footer>
+    </div>
+</body>
+</html>
